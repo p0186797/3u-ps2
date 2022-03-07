@@ -6,10 +6,14 @@ A sporting organization separates teams into different leagues based on how many
 If they have won 1 – 2 games inclusive they are in the “Beginner” league. If they have won 3 – 4 games inclusive they are in the “Intermediate” league. If they have won 5 – 6 games inclusive they are in the “Advanced” league. And if they have won 7 games or more they are in the championship league. If they did not win a single game – they cannot compete. Write a program that takes in 8 lines of input – either W or L and outputs what league they are in: Beginner, Intermediate, Advanced, Championship, Cannot Compete.
 
 **Input Specifications**
+```
 8 lines of input – each line is either W or L.
+```
 
 **Output Specifications**
+```
 1 line from: Beginner, Intermediate, Advanced, Championship, Cannot Compete.
+```
 
 **Sample Input 1**
 ```
@@ -38,10 +42,14 @@ Fall: Sept 23 - Dec 21
 Winter: Dec 22 - Mar 19
 
 **Input Specifications**
+```
 2 lines of output – first line represents a month (01 - 12) and the second line represents a day (01 - 31).
+```
 
 **Output Specifications**
+```
 1 line from: Spring, Summer, Fall, Winter
+```
 
 **Sample Input 1**
 ```
