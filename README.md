@@ -32,32 +32,40 @@ L
 Intermediate
 ```
 ---
-Create a file called **seasons.py** and upload it to this repo.
+Create a file called **astrology.py** and upload it to this repo.
 
-Write a program that takes in a month (01 – 12) and a day and outputs the season (Spring, Summer, Fall, Winter) the day is in. The month and day will always be valid i.e. on the calendar.
+Write a program that takes in the user's year of birth and outputs their elemental zodiac. Their elemental zodiac consists of an element (Metal, Fire, Wood, Water, Earth) and an animal (Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Sheep, Monkey, Rooster, Dog, Pig).
 
-Spring: Mar 20 - June 21
-Summer: June 22 - Sept 22
-Fall: Sept 23 - Dec 21
-Winter: Dec 22 - Mar 19
+To figure out your element, **look at the last digit of your birth year**.
 
-**Input Specifications**
+- 0 or 1, your element is metal
+- 2 or 3, your element is water
+- 4 or 5, your element is wood
+- 6 or 7, your element is fire
+- 8 or 9, your element is earth
+
+To figure out your zodiac animal use the below chart. The Chinese zodiac repeats every 12 years. For example, 2008 + 12 = 2020 is also the year of the rat.
+
+|rat       |ox        |tiger     |rabbit    |dragon    |snake     |horse     |sheep    |monkey    |rooster   |dog       |pig       |
+|----------|----------|----------|----------|----------|----------|----------|---------|----------|----------|----------|----------|
+|2008      |2009      |2010      |2011      |2012      |2013      |2014      |2015     |2016      |2017      |2018      |2019      |
+
+- **Input Specifications**
 ```
-2 lines of output – first line represents a month (01 - 12) and the second line represents a day (01 - 31).
+1 line of input representing the year of birth
 ```
 
 **Output Specifications**
 ```
-1 line from: Spring, Summer, Fall, Winter
+1 line of output: element and zodiac animal with a space in between with all lower case
 ```
 
 **Sample Input 1**
 ```
-03
-15
+1999
 ```
 
 **Sample Output 1**
 ```
-Winter
+earth rabbit
 ```
