@@ -50,7 +50,7 @@ To figure out your zodiac animal use the below chart. The Chinese zodiac repeats
 |----------|----------|----------|----------|----------|----------|----------|---------|----------|----------|----------|----------|
 |2008      |2009      |2010      |2011      |2012      |2013      |2014      |2015     |2016      |2017      |2018      |2019      |
 
-- **Input Specifications**
+**Input Specifications**
 ```
 1 line of input representing the year of birth
 ```
