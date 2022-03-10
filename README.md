@@ -32,23 +32,23 @@ L
 Intermediate
 ```
 ---
-Create a file called **astrology.py** and upload it to this repo.
+Create a file called **spirit_pokemon.py** and upload it to this repo.
 
-Write a program that takes in the user's year of birth and outputs their elemental zodiac. Their elemental zodiac consists of an element (Metal, Fire, Wood, Water, Earth) and an animal (Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Sheep, Monkey, Rooster, Dog, Pig).
+Write a program that takes in the user's year of birth and outputs their spirit pokemon. Their spirit pokemon consists of a type (psychic, fairy, dark, fighting, ghost) and a pokemon (bulbasaur, charmander, squirtle, pikachu).
 
-To figure out your element, **look at the last digit of your birth year**.
+To figure out your type, **look at the last digit of your birth year**.
 
-- 0 or 1, your element is metal
-- 2 or 3, your element is water
-- 4 or 5, your element is wood
-- 6 or 7, your element is fire
-- 8 or 9, your element is earth
+- 0 or 1, your element is psychic
+- 2 or 3, your element is fairy
+- 4 or 5, your element is dark
+- 6 or 7, your element is fighting
+- 8 or 9, your element is ghost
 
-To figure out your zodiac animal use the below chart. The Chinese zodiac repeats every 12 years. For example, 2008 + 12 = 2020 is also the year of the rat.
+To figure out your pokemon use the below chart. **The chart repeats every 4 years.** For example, if you were born in 2008 + 4 = 2012, your spirit animal is also a bulbasaur.
 
-|rat       |ox        |tiger     |rabbit    |dragon    |snake     |horse     |sheep    |monkey    |rooster   |dog       |pig       |
-|----------|----------|----------|----------|----------|----------|----------|---------|----------|----------|----------|----------|
-|2008      |2009      |2010      |2011      |2012      |2013      |2014      |2015     |2016      |2017      |2018      |2019      |
+|bulbasaur |charmander|squirtle  |pikachu   |
+|----------|----------|----------|----------|
+|2008      |2009      |2010      |2011      |
 
 **Input Specifications**
 ```
@@ -57,7 +57,7 @@ To figure out your zodiac animal use the below chart. The Chinese zodiac repeats
 
 **Output Specifications**
 ```
-1 line of output: element and zodiac animal with a space in between with all lower case
+1 line of output: type and pokemon with a space in between with all lower case
 ```
 
 **Sample Input 1**
@@ -67,5 +67,15 @@ To figure out your zodiac animal use the below chart. The Chinese zodiac repeats
 
 **Sample Output 1**
 ```
-earth rabbit
+ghost pikachu
+```
+
+**Sample Input 2**
+```
+2030
+```
+
+**Sample Output 2**
+```
+dark squirtle
 ```
