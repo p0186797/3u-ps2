@@ -44,7 +44,7 @@ To figure out your type, **look at the last digit of your birth year**.
 - 6 or 7, your element is fighting
 - 8 or 9, your element is ghost
 
-To figure out your pokemon use the below chart. **The chart repeats every 4 years.** For example, if you were born in 2008 + 4 = 2012, your spirit animal is also a bulbasaur.
+To figure out your pokemon use the below chart. **The chart repeats every 4 years.** For example, if you were born in 2008 + 4 = 2012, your pokemon is also a bulbasaur.
 
 |bulbasaur |charmander|squirtle  |pikachu   |
 |----------|----------|----------|----------|
